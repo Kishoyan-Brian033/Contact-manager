@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Nunito", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.main{
+    width: 100%;
+    max-width: 900px;
+    border: 1px solid #333;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: .5px solid #333;
+}
+.icons{
+    font-size: 40px;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.container{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+ #btn{
+    padding: 5px 16px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+#btn ion-icon{
+    font-size: 40px;
+}
+/* .form-container{
+    display: none;
+} */
+
+
+.form{
+    
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 1rem;
+}
+.form label{
+    font-size: 18px;
+    margin: 20px;
+}
+.form input{
+    padding: 6px 16px;
+    box-shadow:  5px 5px 2px #4e4d4d;
+     margin: 20px;
+}
+.form button{
+    padding: 5px 15px;
+    width: 100%;
+    max-width: 100px;
+   margin: auto;
+   font-size: 18px;
+   margin: 20px;
+   border-radius: 5px;
+}
+
+.contact-list {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 18px;
+}
+.contact-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+.contact-card button {
+    margin-right: 10px;
+    padding: 4px 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
