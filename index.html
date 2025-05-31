@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact  Manager</title>
+    <title>Contact Manager</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,32 +21,29 @@
         <button id="btn">Create <ion-icon name="add-outline"></ion-icon></button>
     </div>
 
-    <div class="form-container">
+    <div class="form-container hidden">
     <form action="" class="form">
         <div class="names">
         <label for="username">Enter Username:</label>
-        <input type="text" name="name" id="username">
+        <input type="text" name="name" id="username" required>
         </div>
          
         <div class="phone_number">
-        <label for="username">Enter phone number:</label>
-        <input type="text" name="name" id="phone_number" maxlength="12">
+        <label for="phone_number">Enter phone number:</label>
+        <input type="text" name="phone" id="phone_number" maxlength="12" required>
         </div>
          
         <div class="email">
-        <label for="username">Enter User email:</label>
-        <input type="email" name="emai" id="email">
+        <label for="email">Enter User email:</label>
+        <input type="email" name="email" id="email" required>
         </div>
 
-        <button>Submit </button>
-        
+        <button type="submit">Submit</button>
     </form>
     </div>
 
     <div class="contact-list"></div>
-
-
-    </div>
+   </div>
 
 <script src="./dist/app.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
